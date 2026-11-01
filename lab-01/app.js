@@ -35,6 +35,8 @@ app.use((request, response) => {
   response.status(404).send("Page Not Found");
 });
 
-app.listen(3000, () => {
-  console.log("Express server is running on port number 3000");
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`Express server is running on port number ${PORT}`);
 });
