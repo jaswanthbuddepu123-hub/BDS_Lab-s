@@ -2,8 +2,8 @@
 
 ## Student Details
 
-- **Name:** Chavatapalli Rudra Sai Venkata Manikanta
-- **Registration Number:** 252U1R1054
+- **Name:** BUDDEPU VENKATA JASWANTH
+- **Registration Number:** 252U1R1045
 - **Section:** CSE-2A & 223
 
 ## Live Link
@@ -126,12 +126,12 @@ After completing the basic HTTP server, I created an Express application.
 
 I created the following GET routes in my Express application.
 
-| HTTP Method | Path | Description | Status Code |
-|---|---|---|---|
-| GET | `/` | Displays a welcome message. | 200 |
-| GET | `/about` | Returns my student information in JSON format. | 200 |
-| GET | `/time` | Displays the current date and time using the date-fns package. | 200 |
-| GET | Any unknown path | Displays a Page Not Found message. | 404 |
+| HTTP Method | Path             | Description                                                    | Status Code |
+| ----------- | ---------------- | -------------------------------------------------------------- | ----------- |
+| GET         | `/`              | Displays a welcome message.                                    | 200         |
+| GET         | `/about`         | Returns my student information in JSON format.                 | 200         |
+| GET         | `/time`          | Displays the current date and time using the date-fns package. | 200         |
+| GET         | Any unknown path | Displays a Page Not Found message.                             | 404         |
 
 ## Screenshots
 
